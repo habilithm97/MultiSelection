@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
@@ -30,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private ArrayList<Model> getData() {
-        for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < 20; i++) {
             items.add(new Model("아이템 " + i, false));
         }
         return items;
